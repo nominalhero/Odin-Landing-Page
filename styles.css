@@ -1,22 +1,31 @@
-html, body {
-   height: 100vh;
+html {
+
 }
 
 body {
    display: flex;
    flex-direction: column;
+   height: 100vh;
+}
+
+img {
+   
+}
+
+ul {
+   list-style: none;
 }
 
 .header {
    background-color: #1f2937;
 }
 
-.right-links {
-   color: #e5e7eb;
+.awesome-image {
+
 }
 
-ul {
-   list-style: none;
+.right-links {
+   color: #e5e7eb;
 }
 
 .footer {
