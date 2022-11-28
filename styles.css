@@ -4,7 +4,7 @@ html {
 
 body {
    display: flex;
-   flex-direction: column;
+   flex-flow: column wrap;
    height: 100vh;
 }
 
@@ -33,6 +33,14 @@ ul {
    display: flex;
    justify-content: center;
    gap: 52px;
+ }
+
+ .img-small {
+   max-width: 200px;
+ }
+
+ .container-two > h2 {
+   text-align: center;
  }
 
 .footer {
