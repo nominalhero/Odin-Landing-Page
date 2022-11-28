@@ -29,6 +29,12 @@ ul {
    color: #e5e7eb;
 }
 
+.container {
+   display: flex;
+   justify-content: center;
+   gap: 52px;
+ }
+
 .footer {
    margin-top: auto;
    background-color: #1f2937;
