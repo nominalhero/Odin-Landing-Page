@@ -1,5 +1,6 @@
 html {
-
+   margin: 0;
+   padding: 0;
 }
 
 body {
@@ -13,12 +14,12 @@ img {
    height: 100px;
  }
 
-ul {
-   list-style: none;
-}
-
 .header {
    background-color: #1f2937;
+}
+
+.header > {
+   list-style-type: none;
 }
 
 .awesome-image {
@@ -32,7 +33,7 @@ ul {
 .container {
    display: flex;
    justify-content: center;
-   gap: 52px;
+   gap: 30px;
  }
 
  .img-small {
@@ -44,6 +45,12 @@ ul {
  }
 
 .footer {
-   margin-top: auto;
+   display: flex;
+   height: 72px;
    background-color: #1f2937;
-}
+   color: #eee;
+   margin-top: auto;
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+ }
