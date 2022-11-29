@@ -11,7 +11,6 @@ html {
 
 body {
    margin: 0;
-   padding: 0;
 }
 
 img {
@@ -31,6 +30,18 @@ img {
 
 .header {
    background: #1f2937;
+}
+
+.awesome {
+   font-size: 48px;
+   font-weight: 900;
+   color: #f9faf8;
+   background-color: #1f2937;
+}
+
+.awesome > p {
+   font-size: 18px;
+   color: #e5e7eb;
 }
 
 .awesome-image {
@@ -74,21 +85,28 @@ img {
    color: #1f2937;
    font-weight: lighter;
    margin-top: 30px;
+   padding-top: 10px;
+   padding-left: 50px;
+   word-wrap: break-word;
  }
  
  .quote-author {
    text-align: right;
    font-weight: bold;
+   padding-right: 20px;
+   padding-bottom: 20px;
  }
 
  .bottom-text {
    background: #3882F6;
    display: flex;
+   flex-direction: row;
    align-items: center;
+   padding-right: 10px;
  }
 
  .bottom-button {
-
+   justify-self: flex-end;
  }
 
 .footer {
@@ -101,7 +119,4 @@ img {
    justify-content: center;
    align-items: center;
    padding-top: 10px;
-   position: absolute;
-   bottom: 0;
-   width: 100%;
- }
+}
