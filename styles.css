@@ -34,6 +34,8 @@ img {
 .header {
    border: 5px solid gray;
    background: #1f2937;
+   display: flex;
+   flex-direction: column;
 }
 
 .awesome {
@@ -61,12 +63,13 @@ img {
 .awesome > img {
    border: 5px solid olive;
 }
+
 .left-link, .right-links {
    color: #e5e7eb;
 }
 
 .left-link {
-
+   display: flex;
 }
 
 .right-links {
@@ -84,8 +87,9 @@ img {
  }
 
  .img-small {
-
+   max-width: 200px;
  }
+ /* width content to be edited */
 
  .container-two {
    border: 5px solid green;
