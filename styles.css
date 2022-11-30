@@ -61,6 +61,22 @@ img {
    border: 2px solid tomato
 }
 
+.button1, .button2 {
+   background-color: #3882F6;
+   border-radius: 5px;
+   width: 75px;
+}
+
+.button1 {
+   border: none;
+   color: #e5e7eb;
+}
+
+.button2 {
+   border-color: white;
+   border-style: solid;
+   color: #e5e7eb;
+}
 .top-button {
    border: 2px solid oldlace;
 }
