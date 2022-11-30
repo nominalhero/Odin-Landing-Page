@@ -42,6 +42,7 @@ img {
    background-color: #3882F6;
    border-radius: 5px;
    width: 75px;
+   height: 25px;
 }
 
 .button1 {
@@ -88,6 +89,12 @@ img {
 .awesome-text {
    border: 2px solid tomato;
    max-width: 800px;
+}
+
+.main-heading {
+   font-size: 36px;
+   font-weight: 800;
+   color: #e5e7eb;
 }
 
  .sub-heading {
