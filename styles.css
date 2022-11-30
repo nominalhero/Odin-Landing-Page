@@ -38,6 +38,21 @@ img {
    flex-direction: column;
 }
 
+.left-link, .right-links {
+   color: #e5e7eb;
+}
+
+.left-link {
+   display: flex;
+}
+
+.right-links {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 10px;
+}
+
 .button1, .button2 {
    background-color: #3882F6;
    border-radius: 5px;
@@ -55,22 +70,6 @@ img {
    border-style: solid;
    color: #e5e7eb;
 }
-
-.left-link, .right-links {
-   color: #e5e7eb;
-}
-
-.left-link {
-   display: flex;
-}
-
-.right-links {
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   gap: 10px;
-}
-
 .container {
    border: 5px solid pink;
    display: flex;
