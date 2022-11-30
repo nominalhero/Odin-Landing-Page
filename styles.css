@@ -43,8 +43,10 @@ img {
 }
 
 .left-link {
-   display: flex;
+   padding-top: 10px;
+   padding-left: 10px;
 }
+
 
 .right-links {
    display: flex;
