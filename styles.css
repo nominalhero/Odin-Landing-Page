@@ -36,6 +36,7 @@ img {
    background: #1f2937;
    display: flex;
    justify-content: space-between;
+   padding-top: 10px;
 }
 
 .left-link, .right-links {
@@ -43,7 +44,7 @@ img {
 }
 
 .left-link {
-   
+  padding-left: 100px;
 }
 
 
@@ -51,6 +52,7 @@ img {
    display: flex;
    align-items: center;
    gap: 10px;
+   padding-right: 100px;
 }
 
 .button1, .button2 {
@@ -88,6 +90,7 @@ img {
 .awesome-text {
    border: 2px solid tomato;
    max-width: 800px;
+   padding-left: 100px;
 }
 
 .main-heading {
