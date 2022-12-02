@@ -87,29 +87,35 @@ img {
    color: #f9faf8;
    background-color: #1f2937;
 }
+
 .awesome-text {
    border: 2px solid tomato;
    max-width: 800px;
    padding-left: 100px;
 }
 
-.main-heading {
+div.awesome-text p {
+  font-size: 36px;
+  margin-bottom: 0px;
+  font-weight: 900;
+}
+
+div.awesome-text p+p {
+  font-size: 15px;
+  margin-top: 0px;
+  font-weight: 300;
+}
+
+.heading p {
    font-size: 36px;
    font-weight: 800;
    color: #e5e7eb;
    padding: 0;
 }
 
-.main-heading > br {
+.heading p span {
   font-size: 18px;
 }
-
- .sub-heading {
-   font-size: 18px;
-   font-weight: 400;
-   color: #e5e7eb;
-   padding: 0;
- }
 
  .top-button {
    border: 2px solid oldlace;
