@@ -71,14 +71,12 @@ img {
    color: #e5e7eb;
 }
 .flex-container {
-   border: 5px solid pink;
    display: flex;
    justify-content: center;
    gap: 30px;
  }
 
  .awesome {
-   border: 3px solid purple; 
    display: flex;
    font-size: 48px;
    font-weight: 900;
@@ -162,9 +160,13 @@ div.awesome-text p+p {
    padding-left: 50px;
  }
 
- .quote-text {
+ .quote-container {
    display: flex;
    flex-wrap: wrap;
+ }
+
+ .quote-text {
+
  }
  
  .quote-author {
