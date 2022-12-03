@@ -164,15 +164,22 @@ div.awesome-text p+p {
    display: flex;
  }
 
- .quote-text {
-
+ blockquote {
+  margin: 0;
  }
- 
- .quote-author {
-   text-align: right;
-   font-weight: bold;
-   padding-right: 20px;
-   padding-bottom: 20px;
+
+ blockquote p {
+  padding: 15px;
+  background: eee;
+  border-radius: 5px;
+ }
+
+ blockquote p:before {
+  content: '\201C';
+ }
+
+ blockquote p:after {
+  content: '\201D';
  }
 
  .container-four {
