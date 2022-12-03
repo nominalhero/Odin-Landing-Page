@@ -46,7 +46,6 @@ img {
   padding-left: 100px;
 }
 
-
 .right-links {
    display: flex;
    align-items: center;
@@ -71,7 +70,7 @@ img {
    border-style: solid;
    color: #e5e7eb;
 }
-.container {
+.flex-container {
    border: 5px solid pink;
    display: flex;
    justify-content: center;
@@ -128,6 +127,15 @@ div.awesome-text p+p {
 }
 
 .img-small {
+  width: 100px;
+  height: 100px;
+  max-width: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 5px;
+}
+
+.text {
+  font-size: 15px;
   max-width: 200px;
 }
  /* width content to be edited */
@@ -140,10 +148,6 @@ div.awesome-text p+p {
    text-align: center;
    font-size: 36px;
    font-weight: 900;
- }
-
- .text {
-   font-size: 15px;
  }
 
  .container-three {
