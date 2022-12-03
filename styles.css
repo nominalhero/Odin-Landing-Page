@@ -162,7 +162,6 @@ div.awesome-text p+p {
 
  .quote-container {
    display: flex;
-   flex-wrap: wrap;
  }
 
  .quote-text {
