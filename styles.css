@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 html, 
 body {
@@ -13,7 +13,7 @@ html {
 
 body {
    margin: 0;
-   font-family: 'Open Sans', 'Roboto', sans-serif;
+   font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 
 img {
