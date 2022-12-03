@@ -87,12 +87,14 @@ img {
    color: #f9faf8;
    background-color: #1f2937;
    padding-bottom: 50px;
+   padding-top: 50px;
 }
 
 .awesome-text {
    border: 2px solid tomato;
    max-width: 800px;
    padding-left: 100px;
+   padding-right: 150px;
 }
 
 div.awesome-text p {
@@ -116,15 +118,18 @@ div.awesome-text p+p {
 
 .awesome-img {
   border: 5px solid olive;
-  width: 800px;
+  background: gray;
+  border-radius: 5px;
+  width: 500px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
- .img-small {
-   max-width: 200px;
- }
+.img-small {
+  max-width: 200px;
+}
  /* width content to be edited */
 
  .container-two {
