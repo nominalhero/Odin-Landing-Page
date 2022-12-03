@@ -106,6 +106,7 @@ div.awesome-text p+p {
   margin-top: 0px;
   font-weight: 300;
 }
+
  .top-button {
    border: 2px solid oldlace;
    width: 100px;
@@ -115,15 +116,11 @@ div.awesome-text p+p {
 
 .awesome-img {
   border: 5px solid olive;
+  width: 800px;
   display: flex;
-   justify-content: center;
-   align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-
- .awesome > img {
-   border: 5px solid olive;
-   display: flex;
- }
 
  .img-small {
    max-width: 200px;
