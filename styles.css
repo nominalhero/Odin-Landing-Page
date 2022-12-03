@@ -177,7 +177,6 @@ div.awesome-text p+p {
 
  .container-four {
    background: white;
-   border: 5px solid red;
    margin: 100px 500px 100px 500px;
    width: 750px;
  }
@@ -199,7 +198,6 @@ div.awesome-text p+p {
  }
 
 .footer {
-   border: 3px solid maroon;
    display: flex;
    height: 50px;
    background: #1f2937;
