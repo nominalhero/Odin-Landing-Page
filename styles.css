@@ -209,8 +209,9 @@ div.awesome-text p+p {
  .bottom-button {
    justify-self: flex-end;
    align-items: center;
-   padding-top: 25px;
+   padding-top: 40px;
    padding-left: 50px;
+   padding-right: 10px;
  }
 
 .footer {
