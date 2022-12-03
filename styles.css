@@ -162,15 +162,19 @@ div.awesome-text p+p {
 
  .quote-container {
    display: flex;
+   justify-content: center;
  }
 
  blockquote {
   margin: 0;
+  font-size: 30px;
+  text-wrap: wrap;
+  width: 500px;
  }
 
  blockquote p {
   padding: 15px;
-  background: eee;
+  background: #b1b7c3;
   border-radius: 5px;
  }
 
@@ -180,6 +184,11 @@ div.awesome-text p+p {
 
  blockquote p:after {
   content: '\201D';
+ }
+
+ figcaption {
+  font-size: 20px;
+  margin: 0;
  }
 
  .container-four {
