@@ -168,7 +168,6 @@ div.awesome-text p+p {
  blockquote {
   margin: 0;
   font-size: 30px;
-  text-wrap: wrap;
   width: 500px;
  }
 
