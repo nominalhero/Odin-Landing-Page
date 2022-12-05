@@ -139,7 +139,6 @@ div.awesome-text p+p {
  /* width content to be edited */
 
  .container-two {
-   border: 5px solid green;
  }
 
  .container-two > p {
@@ -149,7 +148,6 @@ div.awesome-text p+p {
  }
 
  .container-three {
-   border: 5px solid blue;
    background: #e5e7eb;
    font-size: 36px;
    font-style: italic;
