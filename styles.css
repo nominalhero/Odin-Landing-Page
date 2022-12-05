@@ -192,13 +192,17 @@ div.awesome-text p+p {
 
  .container-four {
    background: white;
-   margin: 100px 500px 100px 500px;
-   width: 750px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 75px;
+   margin-bottom: 75px;
+   width: 800px;
+   padding-left: 120px;
  }
 
  .bottom-text {
    display: flex;
-   flex-direction: row;
    background: #3882F6;
    border-radius: 5px;
    padding-right: 10px;
