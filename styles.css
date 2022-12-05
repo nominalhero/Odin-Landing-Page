@@ -122,6 +122,8 @@ div.awesome-text p+p {
   text-align: center;
   font-size: 15px;
   font-weight: 300;
+  margin-top: 40px;
+  margin-right: 3px;
 }
 
 .img-small {
@@ -142,9 +144,13 @@ div.awesome-text p+p {
  }
 
  .container-two > p {
-   text-align: center;
-   font-size: 36px;
-   font-weight: 900;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+ .img-container > p {
+  text-align: center;
  }
 
  .container-three {
