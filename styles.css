@@ -126,12 +126,8 @@ div.awesome-text p+p {
   margin-right: 3px;
 }
 
-.img-small {
-  width: 200px;
-  height: 200px;
+.img-small > img {
   max-width: 200px;
-  border: 5px solid #CB0C59;
-  border-radius: 5px;
 }
 
 .text {
