@@ -32,14 +32,14 @@ img {
  }
 
 .header {
-   background: #22A0B6;
+   background: #21d8ff;
    display: flex;
    justify-content: space-between;
    padding-top: 10px;
 }
 
 .left-link, .right-links {
-   color: #e5e7eb;
+   color: #000;
 }
 
 .left-link {
@@ -55,20 +55,16 @@ img {
 
 .button1, .button2 {
    background-color: #CB0C59;
-   color: #F9FAF8;
+   color: #fff;
    border-radius: 5px;
+   border: none;
    width: 75px;
    height: 25px;
 }
 
-.button1 {
-   border: none;
-}
-
 .button2 {
    border-color: white;
-   border-style: none;
-   color: #e5e7eb;
+   color: #fff;
 }
 .flex-container {
    display: flex;
@@ -80,8 +76,8 @@ img {
    display: flex;
    font-size: 48px;
    font-weight: 900;
-   color: #f9faf8;
-   background-color: #22A0B6;
+   color: #000;
+   background-color: #21d8ff;
    padding-bottom: 50px;
    padding-top: 50px;
 }
@@ -172,8 +168,8 @@ div.awesome-text p+p {
 
  blockquote p {
   padding: 15px;
-  background: #22A0B6;
-  color: #e5e7eb;
+  background: #21d8ff;
+  color: #000;
   border-radius: 5px;
  }
 
@@ -201,8 +197,8 @@ div.awesome-text p+p {
 
  .bottom-text {
    display: flex;
-   background: #22A0B6;
-   color: #e5e7eb;
+   background: #21d8ff;
+   color: #000;
    border-radius: 5px;
    padding-right: 10px;
    padding-left: 30px;
