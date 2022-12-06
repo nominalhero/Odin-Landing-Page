@@ -113,7 +113,7 @@ div.awesome-text p+p {
   justify-content: center;
   align-items: center;
   background-color: #CB0C59;
-  color: #f9faf8;
+  color: #fff;
   border-radius: 5px;
   text-align: center;
   font-size: 15px;
@@ -148,7 +148,7 @@ div.awesome-text p+p {
  .container-three {
    font-size: 36px;
    font-style: italic;
-   color: #1f2937;
+   color: #000;
    font-weight: 100;
    margin-top: 30px;
    padding-top: 10px;
@@ -216,7 +216,7 @@ div.awesome-text p+p {
    display: flex;
    height: 50px;
    background: #CB0C59;
-   color: #eee;
+   color: #fff;
    margin-top: auto;
    text-align: center;
    justify-content: center;
