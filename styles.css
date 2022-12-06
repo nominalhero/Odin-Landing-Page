@@ -32,7 +32,7 @@ img {
  }
 
 .header {
-   background: #1f2937;
+   background: #22A0B6;
    display: flex;
    justify-content: space-between;
    padding-top: 10px;
@@ -54,7 +54,8 @@ img {
 }
 
 .button1, .button2 {
-   background-color: #3882F6;
+   background-color: #CB0C59;
+   color: #F9FAF8;
    border-radius: 5px;
    width: 75px;
    height: 25px;
@@ -62,12 +63,11 @@ img {
 
 .button1 {
    border: none;
-   color: #e5e7eb;
 }
 
 .button2 {
    border-color: white;
-   border-style: solid;
+   border-style: none;
    color: #e5e7eb;
 }
 .flex-container {
@@ -81,7 +81,7 @@ img {
    font-size: 48px;
    font-weight: 900;
    color: #f9faf8;
-   background-color: #1f2937;
+   background-color: #22A0B6;
    padding-bottom: 50px;
    padding-top: 50px;
 }
@@ -116,7 +116,7 @@ div.awesome-text p+p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: #CB0C59;
   color: #f9faf8;
   border-radius: 5px;
   text-align: center;
@@ -130,7 +130,7 @@ div.awesome-text p+p {
   width: 100px;
   height: 100px;
   max-width: 200px;
-  border: 5px solid #3882F6;
+  border: 5px solid #CB0C59;
   border-radius: 5px;
 }
 
@@ -154,7 +154,6 @@ div.awesome-text p+p {
  }
 
  .container-three {
-   background: #e5e7eb;
    font-size: 36px;
    font-style: italic;
    color: #1f2937;
@@ -177,7 +176,8 @@ div.awesome-text p+p {
 
  blockquote p {
   padding: 15px;
-  background: #b1b7c3;
+  background: #22A0B6;
+  color: #e5e7eb;
   border-radius: 5px;
  }
 
@@ -205,7 +205,8 @@ div.awesome-text p+p {
 
  .bottom-text {
    display: flex;
-   background: #3882F6;
+   background: #22A0B6;
+   color: #e5e7eb;
    border-radius: 5px;
    padding-right: 10px;
    padding-left: 30px;
@@ -222,7 +223,7 @@ div.awesome-text p+p {
 .footer {
    display: flex;
    height: 50px;
-   background: #1f2937;
+   background: #CB0C59;
    color: #eee;
    margin-top: auto;
    text-align: center;
